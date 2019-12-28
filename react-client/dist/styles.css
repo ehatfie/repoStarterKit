@@ -5,21 +5,108 @@ header {
   height: 50px;
   color: white;
 }
-
+.header1 {
+  display: block;
+  background-color: red;
+  width: 100%;
+  height: 100px;
+  color: white;
+}
 #headerButtons {
   list-style-type: none;
-  margin: 0;
+  margin: 50px;
   padding: 0;
+}
+
+.container {
+  background-color: lightblue;
+}
+.smallContainer {
+  flex: 1;
+  background-color: lightGreen;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: x-large;
+}
+
+.smallContainer2 {
+  flex: 1;
+  background-color: lightcoral;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.navContainer {
+  flex: 1;
+  background-color: lightgreen;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
 }
 
 .navButton {
   float: right;
+  margin-right: 0px;
+  flex: 1;
 }
 
 footer {
+  flex: 1;
   display: block;
   width: 100%;
   height: 50px;
   background-color: black;
   color: white;
+}
+
+.medHome {
+  flex: 1;
+  background-color: lightGreen;
+  width: 100px;
+  height: 500px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: x-large;
+}
+
+.smallHome {
+  flex: 1;
+  background-color: lightcoral;
+  width: 50px;
+  height: 500px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.homeNavButton {
+  flex: 1;
+  background-color: lightcoral;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.homeNavButtonAlt {
+  flex: 1;
+  background-color: lightGreen;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: x-large;
 }
