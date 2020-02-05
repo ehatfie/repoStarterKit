@@ -10,14 +10,14 @@ import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
 import Typography from '@material-ui/core/Typography';
 import SimpleCard from '../cards/simpleCard';
+import TrackInfo from '../trackInfo/trackInfo';
 
 
 
 class HomePage extends Component {
   render() {
     return (
-      <div style={{backgroundColor:"lightblue"}}>
-        Home page
+      <div style={{backgroundColor:"lightblue", height: '1000px'}}>
         <Grid
         container
         direction="col"
@@ -34,7 +34,7 @@ class HomePage extends Component {
         >
           <Grid item xs={3}>
             <Container className="homeNavButton">
-              ONE
+              FUNK
             </Container>
           </Grid>
           <Grid item xs={3}>
@@ -61,13 +61,13 @@ class HomePage extends Component {
         spacing={1}
       >
         <Grid item xs={8}>
-          <Container className="medHome">
-            ONE
+          <Container className="largeHome">
+            <TrackInfo />
           </Container>
         </Grid>
         <Grid item xs={4}>
-          <Container className="smallHome">
-            TWO
+          <Container className="otherHome">
+            <TrackInfo/>
           </Container>
         </Grid>
       </Grid>

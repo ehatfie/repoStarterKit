@@ -7,7 +7,7 @@ header {
 }
 .header1 {
   display: block;
-  background-color: red;
+  background-color: blue;
   width: 100%;
   height: 100px;
   color: white;
@@ -23,7 +23,7 @@ header {
 }
 .smallContainer {
   flex: 1;
-  background-color: lightGreen;
+  background-color: rosybrown;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -33,7 +33,7 @@ header {
 
 .smallContainer2 {
   flex: 1;
-  background-color: lightcoral;
+  background-color: purple;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -43,7 +43,7 @@ header {
 
 .navContainer {
   flex: 1;
-  background-color: lightgreen;
+  background-color: orange;
   width: 100px;
   height: 50px;
   text-align: center;
@@ -54,6 +54,11 @@ header {
 .image {
   width: 100px;
   height: 100px;
+}
+
+.trackImage {
+  width: 100%;
+  height: 100%;
 }
 
 .navButton {
@@ -70,20 +75,9 @@ footer {
   background-color: black;
   color: white;
 }
-
-.medHome {
-  flex: 1;
-  background-color: lightGreen;
-  width: 100px;
-  height: 500px;
-  text-align: center;
-  padding-top: 10px;
-  font-size: x-large;
-}
-
 .smallHome {
   flex: 1;
-  background-color: lightcoral;
+  background-color: brown;
   width: 50px;
   height: 500px;
   text-align: center;
@@ -91,9 +85,37 @@ footer {
   justify-items: center;
 }
 
+.otherHome {
+  flex: 1;
+  background-color: brown;
+  width: 50px;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.medHome {
+  flex: 1;
+  width: 100px;
+  height: 100%;
+  background-color: blue;
+  text-align: center;
+  padding-top: 10px;
+  font-size: x-large;
+}
+
+.largeHome {
+  flex: 1;
+  background-color: orange;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .homeNavButton {
   flex: 1;
-  background-color: lightcoral;
+  background-color: gray;
   width: 50px;
   height: 50px;
   text-align: center;
@@ -103,7 +125,7 @@ footer {
 
 .homeNavButtonAlt {
   flex: 1;
-  background-color: lightGreen;
+  background-color: lightseagreen;
   width: 100px;
   height: 50px;
   text-align: center;
